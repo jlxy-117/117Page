@@ -1,0 +1,89 @@
+@media screen and (min-height:561px) {
+    .card {
+/*        height: 55.5%;*/
+        height: 50%;
+        width: 80%;
+        left: -webkit-calc(10% - 11px);
+        top: -webkit-calc(29% - 50px);
+    }
+    .balance {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-height:560px) {
+    .card {
+/*        height: 60%;*/
+        height: 55%;
+        width: 74%;
+        left: -webkit-calc(13% - 10px);
+        top: -webkit-calc(30% - 50px);
+    }
+    .balance {
+        font-size: 20px;
+    }
+}
+
+.card {
+    padding: 10px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f0f0f0;
+    border-radius: 3px;
+    position: absolute;
+}
+
+.qrcode {
+    width: 100%;
+    z-index: 9999;
+}
+
+#qcode_logo {
+    width: 70%;
+    height: 13%;
+    top: 15px;
+    left: 15%;
+    position: absolute;
+}
+
+#qcode {
+    width: 70%;
+    background-color: rgba(0, 0, 0, .0);
+    position: absolute;
+    left: 15%;
+/*    top: 19%;*/
+    top:10%;
+}
+
+#balance {
+    left: 10%;
+    width: 80%;
+    height: 13%;
+    position: absolute;
+    bottom: 2%;
+}
+
+#notice {
+    position: absolute;
+    bottom: 18.5%;
+    width: 80%;
+    height: 5%;
+    left: 10%;
+}
+
+.logo {
+    height: 95%;
+    margin: 0px auto;
+    border-radius: 100%;
+}
+
+.notice {
+    font-size: 10px;
+    color: #a7a7a7;
+}
+
+.balance {
+    color: #ff6d1d;
+    font-weight: 580;
+}

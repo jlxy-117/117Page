@@ -1,0 +1,106 @@
+@media screen and (min-height:561px) {
+    .div_input {
+        height: 50px;
+    }
+    .input_title {
+        left: 5%;
+        font-size: 20px;
+        width: 80px;
+        line-height: 50px;
+    }
+    .input_style {
+        padding-left: 96px;
+        height: 50px;
+        width: 69%;
+        font-size: 20px;
+    }
+    .div_inputs {
+        top: 8%;
+    }
+    .btns {
+        margin-top: 78%;
+    }
+}
+
+@media screen and (max-height:560px) {
+    .div_input {
+        height: 40px;
+    }
+    .input_title {
+        left: 3%;
+        font-size: 18px;
+        width: 80px;
+        line-height: 40px;
+    }
+    .input_style {
+        padding-left: 89px;
+        height: 40px;
+        width: 68%;
+        font-size: 18px;
+    }
+    .div_inputs {
+        top: 12%;
+    }
+    .btns {
+        margin-top: 68%;
+    }
+}
+
+.div_inputs {
+    position: absolute;
+    width: 100%;
+}
+
+.div_input {
+    position: relative;
+    width: 100%;
+    margin-top: 1%;
+    text-align: center;
+    padding: 0px;
+}
+
+.input_title {
+    position: absolute;
+    top: 1%;
+    z-index: 5;
+    color:lightgray;
+    list-style-type: none;
+    text-align: center;
+    display: block;
+}
+
+.input_style {
+    border: none;
+    background-color: white;
+    color:gray;
+    /*     font-family: '黑体';*/
+}
+
+.btns {
+    position: absolute;
+    width: 68%;
+    left: 16%;
+}
+
+#btn_history,
+#btn_rest,
+#btn_ok {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 6%;
+    color: white;
+}
+
+#btn_history {
+    background-color: #49B1FA;
+}
+
+#btn_rest {
+    background-color: red;
+}
+
+#btn_ok {
+    background-color: #49B1FA;
+}
